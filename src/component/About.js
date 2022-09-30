@@ -137,16 +137,7 @@ function About() {
               </ul>
             </div>
           </Grid>
-          <Grid item xs={12} md={6} >
-              <div>
-                <h1>Education</h1>
-              </div>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <div>
-                <h1>Experiences</h1>
-              </div>
-            </Grid>
+          
           <div className='bottom-baseLine'></div>
         </Grid>
       </Container>
