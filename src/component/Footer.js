@@ -1,7 +1,7 @@
 import Container from '@mui/material/Container';
 import { Grid } from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook,faLinkedinIn,faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faFacebook,faLinkedinIn,faGithub,faHackerrank} from '@fortawesome/free-brands-svg-icons';
 import '../styles/footer.css'
 
 function Footer() {
@@ -29,6 +29,11 @@ function Footer() {
                 <li>
                   <a href='https://github.com/Din1998' target='blank'>
                    <FontAwesomeIcon className='footer-icon' icon={faGithub} />
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.hackerrank.com/dinislam8803' target='blank'>
+                   <FontAwesomeIcon className='footer-icon' icon={faHackerrank} />
                   </a>
                 </li>
               </ul>
