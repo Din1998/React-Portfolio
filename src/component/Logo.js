@@ -8,7 +8,7 @@ function Logo() {
         <Grid container>
           <Grid item xs={12} md={12}>
             <div className='logo'>
-            <h1 className='logo-text'>DIN</h1>
+              <h1 className='logo-text'>DIN</h1>
             </div>
           </Grid>
         </Grid>

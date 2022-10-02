@@ -13,7 +13,6 @@
   display: inline;
 
 }
-
 .footer-text{
   margin-top: 10%;
   align-items: center;
@@ -21,4 +20,9 @@
 }
 .baseline{
   border: 1px solid rgb(119, 119, 119);
+}
+.footer-icon{
+  height: 40px;
+  width: 40px;
+  color:  rgb(119, 119, 119);
 }

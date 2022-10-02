@@ -1,8 +1,7 @@
 import Container from '@mui/material/Container';
 import { Grid } from '@mui/material';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook,faLinkedinIn,faGithub} from '@fortawesome/free-brands-svg-icons';
 import '../styles/footer.css'
 
 function Footer() {
@@ -19,17 +18,17 @@ function Footer() {
               <ul>
                 <li>
                   <a href='https://www.facebook.com/din803/' target='blank'>
-                    <FacebookIcon fontSize='large' color='success'/>
+                  <FontAwesomeIcon className='footer-icon'  icon={faFacebook} />
                   </a>
                 </li>
                 <li>
                   <a href='https://www.linkedin.com/in/din1998/' target='blank'>
-                    <LinkedInIcon fontSize='large' color='success' />
+                  <FontAwesomeIcon className='footer-icon' icon={faLinkedinIn} />
                   </a>
                 </li>
                 <li>
                   <a href='https://github.com/Din1998' target='blank'>
-                    <GitHubIcon fontSize='large' color='success' />
+                   <FontAwesomeIcon className='footer-icon' icon={faGithub} />
                   </a>
                 </li>
               </ul>

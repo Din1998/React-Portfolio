@@ -18,8 +18,8 @@ function About() {
           </Grid>
           <Grid item xs={12} md={6}>
             <div className='objective'>
-              <h1>HI ! I'm Dinislam,front-end web developer focused on crafting great web experiences.Designing and coding have been my passion since the days.I started working with computers but i found myself into web development since 2019.I enjoy develop beautiful designed,Intuitive and functional web app.
-              </h1>
+              <h3>HI ! I'm Dinislam,front-end web developer focused on crafting great web experiences.Designing and coding have been my passion since the days.I started working with computers but i found myself into web development since 2019.I enjoy develop beautiful designed,Intuitive and functional web app.
+              </h3>
             </div>
           </Grid>
           <Grid item xs={12} md={6}>

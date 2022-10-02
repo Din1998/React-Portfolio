@@ -3,21 +3,22 @@ import Container from '@mui/material/Container';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea,Grid  } from '@mui/material';
-// import Button from '@mui/material/Button';
+import Button from '@mui/material/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFingerprint} from '@fortawesome/free-solid-svg-icons';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-// import { createTheme, ThemeProvider } from '@mui/material/styles';
-import FingerprintIcon from '@mui/icons-material/Fingerprint';
 import '../styles/home.css'
 
 
-// const theme = createTheme({
-//   palette: {
-//     neutral: {
-//       main: '#64748B',
-//       contrastText: '#fff',
-//     },
-//   },
-// });
+const theme = createTheme({
+  palette: {
+    neutral: {
+      main: '#777777',
+      contrastText: '#fff',
+    },
+  },
+});
 
 function Home() {
   return (
@@ -49,23 +50,19 @@ function Home() {
                   <h1 className='hero-title'>Front-End Developer</h1>
                 </Grid>
                 <Grid item xs={12} md={12} lg={12}>
-                  <div className='hero-objective'>
-                    {/*  */}
-                    {/* <ThemeProvider theme={theme}>
-                      <Button
-                        color="neutral"
-                        className='hero-button'
-                        variant="outlined" 
-                        startIcon={<FingerprintIcon />}>
-                        <NavLink className='hero-button' to='/Contact'>
-                          <p className=''>Get In Touch</p>
-                        </NavLink>
-                      </Button>
-                    </ThemeProvider> */}
+                  <div className='hero-button'>
+                    <ThemeProvider theme={theme}>
+                      <a className='pdf-anchor' href='Dinislam-Frontend.pdf' download='Dinislam-FrontEnd.pdf'>
+                        <Button
+                          color="neutral"
+                          variant="outlined" 
+                          startIcon={<FontAwesomeIcon icon={faFingerprint} />}>
+                            View Cv
+                        </Button>
+                      </a>
+                    </ThemeProvider>
                   </div>
-                 
                 </Grid>
-                
               </Grid>
             </div>
           </Grid>

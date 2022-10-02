@@ -14,7 +14,7 @@ import '../styles/contact.css'
 const theme = createTheme({
   palette: {
     neutral: {
-      main: '#64748B',
+      main: '#777777',
       contrastText: '#fff',
     },
   },
@@ -71,6 +71,7 @@ function Contact() {
                   <FontAwesomeIcon icon={faMobileAndroid} className="contact-icon" />
                   </div>
                   <p className='contact-box-text'>+88 01777 12 88 03</p>
+                  <p className='contact-box-text'>+88 01627 61 95 04</p>
                 </div>
               </div>
             </div>

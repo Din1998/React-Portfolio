@@ -3,9 +3,9 @@ import {Grid} from '@mui/material'
 import CardUi from './Card';
 import '../styles/portfolio.css'
 import CardImg from '../Assist/weather-app.png'
-import CardImg1 from '../Assist/js.jpg'
-import CardImg2 from '../Assist/js.jpg'
-import CardImg3 from '../Assist/js.jpg'
+import CardImg1 from '../Assist/default.jpg'
+import CardImg2 from '../Assist/portfolio.png'
+import CardImg3 from '../Assist/default.jpg'
 
 function Portfolio() {
   return (
@@ -16,16 +16,20 @@ function Portfolio() {
             <h1 className='section-title'>Portfolio</h1>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-            <CardUi Img={CardImg} Title={'WatherApp'} />
+            <CardUi 
+              Img={CardImg}
+              Title={'WatherApp'}
+              Link={'https://tinney-weather-app.vercel.app/'}
+            />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-            <CardUi Img={CardImg1} Title={'BlogApp'} />
+            <CardUi Img={CardImg1} Title={'BlogApp (Comming Soon)'} />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
             <CardUi Img={CardImg2} Title={'PortFolioApp'} />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-            <CardUi Img={CardImg3} Title={'SnackGame'} />
+            <CardUi Img={CardImg3} Title={'SnackGame (Comming Soon)'} />
             </Grid>
             <div className='bottom-baseLine'></div>
           </Grid>
