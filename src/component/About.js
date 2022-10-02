@@ -9,7 +9,7 @@ function About() {
         <Grid container spacing={2}>
           <Grid item xs={12} md={12}>
             <div className='page-title'>
-              <h1>About Me</h1>
+              <h1>About Myself</h1>
             </div>
             <div className='my-bio'>
               <h1>Biography</h1>
@@ -18,7 +18,7 @@ function About() {
           </Grid>
           <Grid item xs={12} md={6}>
             <div className='objective'>
-              <h1>HI ! I'm Dinislam, front-end web developer focused on crafting great web experiences.Designing and coding have been my passion since the days.I started working with computers but i found myself into web development since 2019.I enjoy develop beautiful designed,Intuitive and functional web app.
+              <h1>HI ! I'm Dinislam,front-end web developer focused on crafting great web experiences.Designing and coding have been my passion since the days.I started working with computers but i found myself into web development since 2019.I enjoy develop beautiful designed,Intuitive and functional web app.
               </h1>
             </div>
           </Grid>
@@ -52,7 +52,7 @@ function About() {
             </ul>
           </div>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <div>
                 <h1 className='title-text'>What I Do</h1>
                 <div className='bar'></div>
@@ -81,7 +81,7 @@ function About() {
             </div>
           </Grid>
 
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <div className='lan_section'>
               <h1 className='title-text'>Programming</h1>
               <div className='bar'></div>
@@ -110,7 +110,7 @@ function About() {
               </ul>
             </div>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <div className='lan_section'>
               <h1 className='title-text'>Other Skill</h1>
               <div className='bar'></div>

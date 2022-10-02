@@ -7,7 +7,7 @@ import Portfolio from './component/Portfoli';
 import ScrollToTop from "react-scroll-to-top";
 import Logo from './component/Logo';
 import Quots from './component/Quots';
-import Blog from './component/Blog'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 
@@ -20,9 +20,8 @@ function App() {
     <Portfolio />
     <Quots />
     <Contact />
-    <Blog />
     <Footer />
-    <ScrollToTop smooth top="700" component={<ArrowUpwardIcon />} />
+    <ScrollToTop smooth top="500" component={<ArrowUpwardIcon />} />
 
     </div>
   );
