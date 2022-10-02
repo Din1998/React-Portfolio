@@ -1,3 +1,31 @@
 .container{
   margin-top: 0%;
 }
+
+.contact-box{
+  height: 150px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.contact-section-title{
+  text-align: center;
+}
+
+.contact-box-icon{
+  text-align: center;
+}
+
+.contact-box-text{
+  text-align: center;
+  color: rgb(119, 119, 119);
+}
+
+.contact-icon{
+  height: 25px;
+  width: 25px;
+}
+
+.box{
+  margin-top: 15%;
+}

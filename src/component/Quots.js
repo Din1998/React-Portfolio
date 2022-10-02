@@ -15,23 +15,23 @@ function Quots() {
                   <Carousel.Item>
                     <div className='c-img'></div>
                     <Carousel.Caption>
-                    <h2><q>Second slide label</q></h2>
-                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      <h2><q>When allah loves a servant,He test him.</q></h2>
+                      <p>-Prophet Muhammad</p>
                     </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                     <div className='c-img'></div>
                     <Carousel.Caption>
-                      <h2><q>Second slide label</q></h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <h2><q>It's not a faith in technology. It's faith in people.</q></h2>
+                      <p>- Steve Jobs</p>
                     </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                     <div className='c-img'></div>
                     <Carousel.Caption>
-                    <h2><q>Second slide label</q></h2>
+                    <h2><q>I'm the rebel eternal</q></h2>
                       <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        - Kazi Nazrul Islam 
                       </p>
                     </Carousel.Caption>
                   </Carousel.Item>
@@ -41,6 +41,7 @@ function Quots() {
             </Parallax>
           </Grid>
         </Grid>
+        <div className='bottom-baseLine'></div>
       </Container>
     </div>
   );
