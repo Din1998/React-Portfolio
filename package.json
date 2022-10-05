@@ -24,6 +24,7 @@
     "react-router-dom": "6",
     "react-scripts": "5.0.1",
     "react-scroll-to-top": "^3.0.0",
+    "react-simple-typewriter": "^4.0.5",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

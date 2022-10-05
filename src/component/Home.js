@@ -1,4 +1,4 @@
-import * as React from 'react';
+import{ useState } from 'react';
 import Container from '@mui/material/Container';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
@@ -7,6 +7,8 @@ import Button from '@mui/material/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFingerprint} from '@fortawesome/free-solid-svg-icons';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Typewriter } from 'react-simple-typewriter'
+
 
 import '../styles/home.css'
 
@@ -21,6 +23,19 @@ const theme = createTheme({
 });
 
 function Home() {
+
+  const [count, setCount] = useState(0);
+
+    const handleDone = () => {
+    console.log("done from typewriter component");
+  };
+  const handleType = (counter) => {
+    setCount(counter);
+    console.log("this function run every type on Component");
+  };
+
+
+
   return (
     <div className="Home">
       <Container maxWidth="lg">
@@ -47,7 +62,25 @@ function Home() {
                   <div className='bar'></div>
                 </Grid>
                 <Grid item xs={12} md={12} lg={12}>
-                  <h1 className='hero-title'>Front-End Developer</h1>
+                
+                  <h1 className='hero-title' style={{  margin: 'auto 0', fontWeight: 'normal' }}>
+                      Creative{' '}
+                      <span style={{ color: 'black', fontWeight: 'bold' }}>
+                        
+                        <Typewriter
+                          words={['Front-End Developer', 'Web Developer', 'Web Designer']}
+                          loop={10}
+                          cursor
+                          cursorStyle='_'
+                          typeSpeed={70}
+                          deleteSpeed={50}
+                          delaySpeed={1000}
+                          onLoopDone={handleDone}
+                          onType={handleType}
+                        />
+                      </span>
+                    </h1>
+              
                 </Grid>
                 <Grid item xs={12} md={12} lg={12}>
                   <div className='hero-button'>
