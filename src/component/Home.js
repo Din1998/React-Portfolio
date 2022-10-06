@@ -24,7 +24,7 @@ const theme = createTheme({
 
 function Home() {
 
-  const [count, setCount] = useState(0);
+  const [ setCount] = useState(0);
 
     const handleDone = () => {
     console.log("done from typewriter component");
@@ -65,7 +65,7 @@ function Home() {
                 
                   <h1 className='hero-title' style={{  margin: 'auto 0', fontWeight: 'normal' }}>
                       Creative{' '}
-                      <span style={{ color: 'black', fontWeight: 'bold' }}>
+                      <span style={{ color: 'black' }}>
                         
                         <Typewriter
                           words={['Front-End Developer', 'Web Developer', 'Web Designer']}
