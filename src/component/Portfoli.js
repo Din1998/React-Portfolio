@@ -7,6 +7,7 @@ import CardImg1 from '../Assist/html-css-bootstrap.png'
 import CardImg2 from '../Assist/portfolio.png'
 import CardImg3 from '../Assist/default.jpg'
 import CardImg4 from '../Assist/task-m.png'
+import CardImg5 from '../Assist/play-snake.png'
 
 function Portfolio() {
   return (
@@ -42,9 +43,9 @@ function Portfolio() {
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
             <CardUi 
-              Img={CardImg3} 
-              Title={'Coming soon'}
-              // Link={'https://html-css-bootstrap-eight.vercel.app/'}
+              Img={CardImg5} 
+              Title={'Play Snak'}
+              Link={'https://snack-dev.vercel.app/'}
             />
             </Grid>
             <Grid item xs={12} sm={6} md={4}>

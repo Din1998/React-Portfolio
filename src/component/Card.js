@@ -19,7 +19,7 @@ export default function CardUi(props) {
               alt="green iguana"
             />
             <CardContent>
-              <Typography >
+              <Typography variant="body2" color="text.secondary">
                 {props.Title}
               </Typography>
               

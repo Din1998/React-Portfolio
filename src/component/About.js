@@ -18,7 +18,7 @@ function About() {
           </Grid>
           <Grid item xs={12} md={6}>
             <div className='objective'>
-              <h3>HI ! I'm Dinislam,front-end web developer focused on crafting great web experiences.Designing and coding have been my passion since the days.I started working with computers but i found myself into web development since 2019.I enjoy develop beautiful designed,Intuitive and functional web app.
+              <h3>I’ve found interest in software engineering almost 2 years ago, especially in Front-end development. After that, I’ve self taught myself coding. I tried to build websites, different applications using HTML, CSS, Javascript and React.Then I dived into some backend things such as Express Js,MongoDB to understand how applications work from end-to-end.
               </h3>
             </div>
           </Grid>
