@@ -2,7 +2,7 @@ import Container from '@mui/material/Container';
 import {Grid} from '@mui/material'
 import CardUi from './Card';
 import '../styles/portfolio.css'
-import CardImg from '../Assist/weather-app.png'
+import CardImg from '../Assist/bdWeather.png'
 import CardImg1 from '../Assist/html-css-bootstrap.png'
 import CardImg2 from '../Assist/portfolio.png'
 import CardImg3 from '../Assist/default.jpg'
@@ -44,7 +44,7 @@ function Portfolio() {
             <Grid item xs={12} sm={6} md={4}>
             <CardUi 
               Img={CardImg5} 
-              Title={'Play Snak'}
+              Title={'Play Snak Build with <Html,Css,JavaScript'}
               Link={'https://snack-dev.vercel.app/'}
             />
             </Grid>
