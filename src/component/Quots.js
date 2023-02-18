@@ -41,8 +41,9 @@ function Quots() {
             </Parallax>
           </Grid>
         </Grid>
-        <div className='bottom-baseLine'></div>
+        
       </Container>
+      <div className='bottom-baseLine'></div>
     </div>
   );
 }
