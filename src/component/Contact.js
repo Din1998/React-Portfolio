@@ -62,7 +62,7 @@ function Contact() {
                 <div className='contact-box-icon'>
                 <FontAwesomeIcon icon={faMessage} className="contact-icon" />
                 </div>
-                <p className='contact-box-text'>dinislam8803@gmail.com</p>
+                <p className='contact-box-text'>dev.dinislam@gmail.com</p>
                 </div>
                 </div>
               <div className='contact-box'>
