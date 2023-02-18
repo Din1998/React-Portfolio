@@ -4,19 +4,20 @@
   margin-bottom: 50px;
 }
 .name{
+  font-family: 'Lato', sans-serif;
   font-size: 8vh;
 }
 .hero-title{
   margin-top: 3%;
   font-size: 30px;
-  color: rgb(119, 119, 119);
+  color: rgb(255, 255, 255);
 }
 
 .bar{
   margin-top: 10px;
   margin-bottom: 10px;
   width: 50px;
-  border: 3px solid black;
+  border: 3px solid rgb(255, 255, 255);
 }
 
 .hero-objective{
@@ -27,7 +28,7 @@
 .bottom-baseLine{
   margin-top: 3%;
   width: 100%;
-  border: 1px solid rgb(119, 119, 119);
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .hero-button{

@@ -53,10 +53,10 @@ function About() {
           </div>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <div>
+            <div className='intro__section'>
                 <h1 className='title-text'>What I Do</h1>
                 <div className='bar'></div>
-                <div>
+               
                 <ul className='lan_ul'>
                 <li className='lan_li'>
                   <span className='lan_sp_second'>Front-End Develop</span>
@@ -77,12 +77,11 @@ function About() {
                   <span className='lan_sp_second'>Effective Design Sense</span>
                 </li>
               </ul>
-              </div>
             </div>
           </Grid>
 
           <Grid item xs={12} sm={6} md={4}>
-            <div className='lan_section'>
+            <div className='intro__section'>
               <h1 className='title-text'>Programming</h1>
               <div className='bar'></div>
               <ul className='lan_ul'>
@@ -111,7 +110,7 @@ function About() {
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <div className='lan_section'>
+            <div className='intro__section'>
               <h1 className='title-text'>Other Skill</h1>
               <div className='bar'></div>
               <ul className='lan_ul'>

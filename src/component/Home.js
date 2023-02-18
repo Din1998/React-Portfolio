@@ -6,8 +6,9 @@ import { CardActionArea,Grid  } from '@mui/material';
 import Button from '@mui/material/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFingerprint} from '@fortawesome/free-solid-svg-icons';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { createTheme, ThemeProvider,  styled  } from '@mui/material/styles';
 import { Typewriter } from 'react-simple-typewriter'
+import { deepPurple } from '@mui/material/colors';
 
 
 import '../styles/home.css'
@@ -34,6 +35,14 @@ function Home() {
     console.log("this function run every type on Component");
   };
 
+  const ColorButton = styled(Button)(({ theme }) => ({
+    color: theme.palette.getContrastText(deepPurple[500]),
+    backgroundColor: deepPurple[400],
+    '&:hover': {
+      backgroundColor: deepPurple[500],
+    },
+  }));
+  
 
 
   return (
@@ -85,13 +94,13 @@ function Home() {
                 <Grid item xs={12} md={12} lg={12}>
                   <div className='hero-button'>
                     <ThemeProvider theme={theme}>
-                      <a className='pdf-anchor' href='Dinislam-Frontend.pdf' download='Dinislam-FrontEnd.pdf'>
-                        <Button
+                      <a className='pdf-anchor' href='Dinislam.pdf' download='Dinislam.pdf'>
+                        <ColorButton
                           color="neutral"
                           variant="outlined" 
                           startIcon={<FontAwesomeIcon icon={faFingerprint} />}>
                             View Cv
-                        </Button>
+                        </ColorButton>
                       </a>
                     </ThemeProvider>
                   </div>
