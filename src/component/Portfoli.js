@@ -3,7 +3,7 @@ import {Grid} from '@mui/material'
 import CardV2 from './Cardv2';
 import '../styles/portfolio.css'
 import CardImg from '../Assist/bdWeather.png'
-import CardImg1 from '../Assist/html-css-bootstrap.png'
+import CardImg1 from '../Assist/bootstrap.png'
 import CardImg2 from '../Assist/portfolio.png'
 import CardImg3 from '../Assist/default.jpg'
 import CardImg4 from '../Assist/task-m.png'

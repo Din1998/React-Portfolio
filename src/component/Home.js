@@ -12,6 +12,7 @@ import { deepPurple } from '@mui/material/colors';
 
 
 import '../styles/home.css'
+import HeroCard from './HeroCard';
 
 
 const theme = createTheme({
@@ -50,22 +51,14 @@ function Home() {
       <Container maxWidth="lg">
         <Grid container spacing={2}>
           <Grid item xs={12} md={4}>
-            <Card sx={{ height: '70vh' }}>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  height="500"
-                  image="/Assist/din.png"
-                  alt="green iguana"
-                />
-              </CardActionArea>
-            </Card>
+            <HeroCard />
           </Grid>
           <Grid item xs={12} md={8}>
             <div className='hero-container'>
               <Grid container>
                 <Grid item xs={12} md={12} lg={12} >
-                  <h1 className='name'>DinIslam</h1>
+                  <h1>Hello !</h1>
+                  <h1 className='name'>I'm DinIslam</h1>
                 </Grid>
                 <Grid item xs={12} md={12} lg={12} >
                   <div className='bar'></div>
@@ -99,7 +92,7 @@ function Home() {
                           color="neutral"
                           variant="outlined" 
                           startIcon={<FontAwesomeIcon icon={faFingerprint} />}>
-                            View Cv
+                            View Resume
                         </ColorButton>
                       </a>
                     </ThemeProvider>
