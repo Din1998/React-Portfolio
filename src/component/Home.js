@@ -1,8 +1,7 @@
 import{ useState } from 'react';
 import Container from '@mui/material/Container';
-import Card from '@mui/material/Card';
-import CardMedia from '@mui/material/CardMedia';
-import { CardActionArea,Grid  } from '@mui/material';
+
+import { Grid  } from '@mui/material';
 import Button from '@mui/material/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFingerprint} from '@fortawesome/free-solid-svg-icons';
